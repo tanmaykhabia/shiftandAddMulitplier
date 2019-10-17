@@ -27,7 +27,7 @@ reg [3:0] q;
 reg [4:0] ac;
 always@(a or b)
 begin
-ac = 4'b0;
+ac = 0;
 
 q = b;
 repeat (4) 
