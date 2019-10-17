@@ -49,7 +49,7 @@ module shiftandAddMulitplier_tb;
 
 	end
 	initial #256 $finish ; 
-	always #1 a = a +1 ; 
+	always #2 a = a +1 ; 
 	always #16 b= b+ 1 ; 
 
       
