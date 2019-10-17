@@ -43,10 +43,6 @@ module shiftandAddMulitplier_tb;
 		a = 0;
 		b = 0;
 
-		// Wait 100 ns for global reset to finish
-        
-		// Add stimulus here
-
 	end
 	initial #256 $finish ; 
 	always #1 a = a +1 ; 
