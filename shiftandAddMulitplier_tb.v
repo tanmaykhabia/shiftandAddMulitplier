@@ -13,8 +13,6 @@
 // Description: 
 //
 // Verilog Test Fixture created by ISE for module: shiftandAddMultiplier
-//
-// Dependencies:
 // 
 // Revision:
 // Revision 0.01 - File Created
