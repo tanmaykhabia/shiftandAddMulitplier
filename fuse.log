@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMulitplier_tb_isim_beh.exe -prj /home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMulitplier_tb_beh.prj work.shiftandAddMulitplier_tb work.glbl 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.v" into library work
+Analyzing Verilog file "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMulitplier_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95020 KB
+Fuse CPU Usage: 2070 ms
+Compiling module shiftandAddMultiplier
+Compiling module shiftandAddMulitplier_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable /home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMulitplier_tb_isim_beh.exe
+Fuse Memory Usage: 655204 KB
+Fuse CPU Usage: 2090 ms
+GCC CPU Usage: 570 ms

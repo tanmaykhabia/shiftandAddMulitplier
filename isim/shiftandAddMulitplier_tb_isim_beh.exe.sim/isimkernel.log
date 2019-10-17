@@ -1,0 +1,29 @@
+Command line:
+   shiftandAddMulitplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35267
+
+Fri Oct 11 01:16:52 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 181.379 Meg
+
+ Total Signals          : 16
+ Total Nets             : 29
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 134
+Total Line Count : 33
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 256.881 Meg
+
+Fri Oct 11 01:17:52 2019
+

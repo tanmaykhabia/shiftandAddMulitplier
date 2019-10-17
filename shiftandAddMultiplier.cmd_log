@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.xst" -ofn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.syr" 
+xst -intstyle ise -ifn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.xst" -ofn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shiftandAddMulitplier.ucf -p xc3s500e-fg320-5 shiftandAddMultiplier.ngc shiftandAddMultiplier.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o shiftandAddMultiplier_map.ncd shiftandAddMultiplier.ngd shiftandAddMultiplier.pcf 
+par -w -intstyle ise -ol high -t 1 shiftandAddMultiplier_map.ncd shiftandAddMultiplier.ncd shiftandAddMultiplier.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml shiftandAddMultiplier.twx shiftandAddMultiplier.ncd -o shiftandAddMultiplier.twr shiftandAddMultiplier.pcf -ucf shiftandAddMulitplier.ucf 
+xst -intstyle ise -ifn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.xst" -ofn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.syr" 
+xst -intstyle ise -ifn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.xst" -ofn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.syr" 
+xst -intstyle ise -ifn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.xst" -ofn "/home/tanmay/tanmay/verilog/shiftandAddMulitplier/shiftandAddMultiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shiftandAddMulitplier.ucf -p xc3s500e-fg320-5 shiftandAddMultiplier.ngc shiftandAddMultiplier.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o shiftandAddMultiplier_map.ncd shiftandAddMultiplier.ngd shiftandAddMultiplier.pcf 
+par -w -intstyle ise -ol high -t 1 shiftandAddMultiplier_map.ncd shiftandAddMultiplier.ncd shiftandAddMultiplier.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml shiftandAddMultiplier.twx shiftandAddMultiplier.ncd -o shiftandAddMultiplier.twr shiftandAddMultiplier.pcf -ucf shiftandAddMulitplier.ucf 
